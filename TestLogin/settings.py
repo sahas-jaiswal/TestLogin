@@ -24,7 +24,7 @@ SECRET_KEY = '%_93t2$xrhe#t99x@#zl=z92#u2*3j-3z!k#q40_-dp$@$tbq*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['testlogindjango.herokuapp.com','127.0.0.1']
 
 # Application definition
 
