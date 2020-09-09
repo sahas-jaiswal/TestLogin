@@ -118,3 +118,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'Static')
 ]
 LOGIN_REDIRECT_URL = 'accounts/dashboard'
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
