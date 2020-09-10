@@ -22,6 +22,7 @@ def signup(request):
         # user.save()
         if form.is_valid():
             form.save()
+            messages.success(request, 'Account was created for ' + user)
         return redirect('login')
 
     else:
@@ -44,7 +45,7 @@ def login(request):
         return render(request, 'Login.html')
 
 
-@login_required
+@login_required()
 def dashboard(request):
     users = User.objects.all()
     return render(request, 'Dashboard.html', {'users': users})

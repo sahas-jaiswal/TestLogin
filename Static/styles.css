@@ -15,6 +15,12 @@ height: 100%;
 align-content: center;
 }
 
+#messages{
+    color: whitesmoke;
+    padding: 10px;
+	margin-top: 10px;
+}
+
 .card{
 height: 370px;
 margin-top: auto;
